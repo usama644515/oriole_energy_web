@@ -107,9 +107,9 @@ const MainSliderFive = () => {
                                                     <span>{btnText}<i className="tolak-icons-two-arrow-right-short"></i></span>
                                                     <span className="tolak-btn-two__right-star"></span>
                                                 </Link>
-                                                <div className="video-popup">
+                                                {/* <div className="video-popup">
                                                     <i className="tolak-icons-two-play"></i>{videoText}
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>

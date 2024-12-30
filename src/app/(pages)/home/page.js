@@ -33,7 +33,7 @@ export const metadata = {
 const page = () => {
     return (
         <Layout pageTitle="homeFive">
-            <TopbarFive />
+            {/* <TopbarFive /> */}
             <HeaderFive />
             <HeaderFiveCloned />
             <MainSliderFive />
