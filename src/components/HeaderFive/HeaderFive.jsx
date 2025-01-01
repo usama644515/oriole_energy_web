@@ -22,8 +22,8 @@ const HeaderFive = () => {
             <Container >
                 <div className="main-header-five__inner">
                     <div className="main-header-five__logo">
-                        <Link href='/home1'>
-                            <Image src={logo3} alt="Tolak HTML" width={184}
+                        <Link href='/home'>
+                            <Image src={logo3} alt="Oriole" width={184}
                                 style={{ height: "auto" }} />
                         </Link>
                     </div>
