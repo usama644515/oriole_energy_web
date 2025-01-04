@@ -15,9 +15,9 @@ const SkillTwo = () => {
 
     // Chart data
     const chartData = {
-        labels: ["Python", "Java", "PHP", "JavaScript", "WordPress", "Others"],
+        labels: ["Web Development", "Mobile App Development", "Software Development", "Data Science", "Graphics Designing"],
         datasets: [{
-            data: [45.5, 8.4, 13.6, 4.2, 24.0, 4.3],
+            data: [30.0,30.0,20.0,10.0, 10.0 ],
             backgroundColor: ['#36A2EB', '#FF6384', '#FF5733', '#FFCE56', '#DAF7A6', '#C70039'],
             borderWidth: 2,
         }],

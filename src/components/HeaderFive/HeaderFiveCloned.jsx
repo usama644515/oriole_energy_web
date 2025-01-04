@@ -21,7 +21,7 @@ const HeaderFiveCloned = () => {
             <Container >
                 <div className="main-header-five__inner">
                     <div className="main-header-five__logo">
-                        <Link href='/home1'>
+                        <Link href='/home'>
                             <Image src={logo3} alt="Tolak HTML" width={184}
                                 style={{ height: "auto" }} />
                         </Link>
@@ -30,7 +30,7 @@ const HeaderFiveCloned = () => {
                         <ul className="main-menu__list">
 
 
-                            <MegaMenu />
+                            {/* <MegaMenu /> */}
 
 
                             {navItems.map((item) => (

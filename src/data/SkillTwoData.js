@@ -1,36 +1,44 @@
-import bg from '@/assets/images/backgrounds/skill-bg-2.png'
-import skillImage from '@/assets/images/resources/skill-two-1.jpg'
+import bg from '@/assets/images/backgrounds/skill-bg-2.png';
+import skillImage from '@/assets/images/resources/skill-two-1.jpg';
 
 const skillTwoData = {
     bg,
     skillImage,
     tagLine: "OUR SKILL",
-    title: "Technology Solution The Skill of Technology Software.",
-    text: "Business tailored design, management & support services Business business agency elit, sed do eiusmod tempor",
+    title: "Expertise in IT Services and Technology Solutions.",
+    text: "We provide cutting-edge IT services tailored to meet the unique needs of businesses. From development to management, we ensure the highest quality of service.",
     progress: [
         {
-            title: "Interpersonal Skills",
+            title: "Website Development",
+            percent: "90%"
+        },
+        {
+            title: "Mobile App Development",
             percent: "85%"
         },
         {
-            title: "Leadership Work",
-            percent: "70%"
+            title: "Cloud Computing Solutions",
+            percent: "80%"
         },
         {
-            title: "Completed Work",
-            percent: "96%"
+            title: "Data Science",
+            percent: "88%"
+        },
+        {
+            title: "Software Development",
+            percent: "92%"
         }
     ],
     listItems: [
-        "Tincidunt elit magnis nulla facilisis amet.",
-        "There are many variations of passages of Lorem",
-        "There are many variations of the passages of available."
+        "Customized solutions for diverse IT needs.",
+        "Secure and scalable technology platforms.",
+        "Innovative strategies for business growth."
     ],
     button: {
-        text: "Our Experts",
-        href: "team.html",
+        text: "Our Services",
+        href: "services.html",
         icon: "tolak-icons-two-arrow-right-short"
     }
-}
+};
 
-export default skillTwoData
+export default skillTwoData;
