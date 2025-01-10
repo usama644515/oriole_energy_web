@@ -22,61 +22,51 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const widgetSocial = [
-  { id: 1, icon: faFacebookF, href: "https://facebook.com", title: "Facebook" },
-  {
-    id: 2,
-    icon: faPinterestP,
-    href: "https://pinterest.com",
-    title: "Pinterest",
-  },
-  { id: 3, icon: faTwitter, href: "https://twitter.com", title: "Twitter" },
-  {
-    id: 4,
-    icon: faInstagram,
-    href: "https://instagram.com",
-    title: "Instagram",
-  },
+  { id: 1, icon: faFacebookF, href: "https://facebook.com", title: "Follow us on Facebook" },
+  { id: 2, icon: faPinterestP, href: "https://pinterest.com", title: "Follow us on Pinterest" },
+  { id: 3, icon: faTwitter, href: "https://twitter.com", title: "Follow us on Twitter" },
+  { id: 4, icon: faInstagram, href: "https://instagram.com", title: "Follow us on Instagram" },
 ];
 
 const posts = {
-  title: "Recent Posts",
+  title: "Latest Updates",
   posts: [
     {
       id: 1,
       image: post1,
-      meta: "23 jun 2023",
-      title: "We round solution york Blog",
+      meta: "23 Jun 2023",
+      title: "Discover the Best Business Solutions",
       href: "blog-details",
-      icon: "icofont-calendar"
+      icon: "icofont-calendar",
     },
     {
       id: 2,
       image: post2,
-      meta: "23 jun 2023",
-      title: "We Should be Descriptive",
+      meta: "23 Jun 2023",
+      title: "Insights on Future Tech Trends",
       href: "blog-details",
-      icon: "icofont-calendar"
+      icon: "icofont-calendar",
     },
   ],
 };
 const postsSix = {
-  title: "Recent Posts",
+  title: "Featured Posts",
   posts: [
     {
       id: 1,
       image: post6,
       meta: "20 Nov 2023",
-      title: "This Specific Issue Network Security",
+      title: "Securing Your Network Effectively",
       href: "blog-details",
-      icon: "icofont-calendar"
+      icon: "icofont-calendar",
     },
     {
       id: 2,
       image: post7,
-      meta: "23 jun 2023",
-      title: "Looking For a Solution Related",
+      meta: "23 Jun 2023",
+      title: "Looking for Reliable IT Solutions?",
       href: "blog-details",
-      icon: "icofont-calendar"
+      icon: "icofont-calendar",
     },
   ],
 };
@@ -95,38 +85,38 @@ const footerData = {
   footerAbout,
   posts,
   postsSix,
-  aboutTwoText: "Will give you a complete account the system, and expound the teachings of the great explorer the truth, the master-builder because ...",
+  aboutTwoText: "Oriole Energy delivers innovative IT and energy solutions tailored for business success. Empowering growth through sustainable and efficient technology.",
   widgetText:
-    "Automotive’s four Frederick locations continues its years tradition of quality auto repair services. ehicle owners in gym enter and take a look.",
+    "Our dedicated team ensures top-notch services across all sectors. Let's transform your ideas into reality.",
   widgetInfo: {
-    time: "Open Hours of Government:\n Mon - Fri: 8.00 am. - 6.00 pm.",
+    time: "Office Hours:\n Mon - Fri: 9.00 am - 5.00 pm",
     timeIcon: "icofont-clock-time",
-    location: "13/A, Miranda Halim City .",
+    location: "Suite 13/A, Business Bay, City Center",
     locationIcon: "icofont-location-pin",
-    tel: "099 695 695 35",
+    tel: "+1 800 555 1234",
     telIcon: "icofont-phone",
     subHref: "tel",
   },
   widgetSocial,
   services: [
-    { id: 1, href: "/about", title: "Why choose us" },
-    { id: 2, href: "/aservices", title: "Our Service" },
-    { id: 3, href: "/reviews", title: "Partners" },
-    { id: 4, href: "/contact", title: "Core values" },
-    { id: 5, href: "/project", title: "Our projects" },
+    { id: 1, href: "/about", title: "Why Choose Us?" },
+    { id: 2, href: "/services", title: "Our Services" },
+    { id: 3, href: "/reviews", title: "Client Testimonials" },
+    { id: 4, href: "/contact", title: "Our Values" },
+    { id: 5, href: "/project", title: "Project Portfolio" },
   ],
   quickLinks: [
-    { id: 1, href: "/gallery", title: "Gallery" },
-    { id: 2, href: "/packages", title: "Packages" },
-    { id: 3, href: "/team", title: "Team" },
-    { id: 4, href: "/contact", title: "Contact" },
-    { id: 5, href: "/blog-grid-right", title: "News" },
+    { id: 1, href: "/gallery", title: "Our Gallery" },
+    { id: 2, href: "/packages", title: "Service Packages" },
+    { id: 3, href: "/team", title: "Meet the Team" },
+    { id: 4, href: "/contact", title: "Contact Us" },
+    { id: 5, href: "/blog-grid-right", title: "Latest News" },
   ],
   bottomLinks: [
     { id: 1, href: "/about", title: "About Us" },
     { id: 2, href: "/services", title: "Services" },
-    { id: 3, href: "/blog-list-right", title: "News" },
-    { id: 4, href: "/portfolio", title: "Portfolio" },
+    { id: 3, href: "/blog-list-right", title: "News & Updates" },
+    { id: 4, href: "/portfolio", title: "Our Portfolio" },
   ],
 };
 

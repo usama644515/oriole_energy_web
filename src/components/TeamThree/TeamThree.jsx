@@ -55,7 +55,7 @@ const TeamThree = () => {
                         {teamData.map(({ id, name, image, designation, socialLinks }) => (
                             <div className="item" key={id}>
                                 <div className="team-card-three wow fadeInUp" data-aos='fade-up' data-wow-duration="1500ms" data-aos-delay="00ms">
-                                    <div className="team-card-three__image">
+                                    <div className="team-card-three__image" >
                                         <Image src={image} alt={name} />
                                         <div className="team-card-three__social">
                                             {socialLinks.map(({ name, href, icon }, index) => (

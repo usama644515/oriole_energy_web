@@ -1,5 +1,5 @@
 import ContactTwo from '@/components/ContactTwo/ContactTwo';
-import FooterThree from '@/components/FooterThree/FooterThree';
+import FooterFive from '@/components/FooterFive/FooterFive';
 import HeaderInner from '@/components/HeaderInner/HeaderInner';
 import HeaderInnerCloned from '@/components/HeaderInner/HeaderInnerCloned';
 import Layout from '@/components/Layout/Layout';
@@ -22,7 +22,7 @@ const page = () => {
             <PageHeader title="Contact Page" subTitle="Contact" />
             <ContactTwo contact="page" />
             <MailTwo />
-            <FooterThree />
+            <FooterFive />
         </Layout>
     );
 };

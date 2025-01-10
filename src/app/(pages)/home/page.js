@@ -45,18 +45,18 @@ const page = () => {
             <MainSliderFive />
             <FeatureFive />
             <AboutFive />
-            <FunFactThree />
+            {/* <FunFactThree /> */}
             <ServiceThree />
             <SkillTwo />
-            <ClientCarousel pageTitle="homeFive" />
+            {/* <ClientCarousel pageTitle="homeFive" /> */}
             {/* <ProjectThree /> */}
             <TeamThree />
-            <FaqTwo />
-            <VideoThree />
-            <TestimonialsFour />
-            <WhyChooseThree />
+            {/* <FaqTwo />
+            <VideoThree /> */}
+            {/* <TestimonialsFour /> */}
+            {/* <WhyChooseThree />
             <CtaSeven />
-            <BlogFour />
+            <BlogFour /> */}
             <MailTwo pageTitle="homeFive" />
             <FooterFive />
         </Layout>

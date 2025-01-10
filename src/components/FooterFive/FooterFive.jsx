@@ -61,7 +61,7 @@ const FooterFive = () => {
                             </ul>
                         </div>
                     </Col >
-                    <Col md={6} lg={3} className="col-md-6 col-lg-3">
+                    {/* <Col md={6} lg={3} className="col-md-6 col-lg-3">
                         <div className="footer-widget footer-widget--posts">
                             <h2 className="footer-widget__title">Recent Posts</h2>
                             <ul className="footer-widget__posts list-unstyled">
@@ -81,7 +81,7 @@ const FooterFive = () => {
 
                             </ul>
                         </div>
-                    </Col >
+                    </Col > */}
                 </Row>
             </Container>
             <div className="main-footer-four__bottom">
@@ -90,7 +90,7 @@ const FooterFive = () => {
                         <Row className="row">
                             <Col md={6}>
                                 <p className="main-footer-four__copyright">
-                                    &copy; Copyright <span className="dynamic-year">{year}</span> by Tolak NextJS Template.
+                                    &copy; Copyright <span className="dynamic-year">{year}</span> by Oriole Energy.
                                 </p>
                             </Col>
                             <Col md={6}>
