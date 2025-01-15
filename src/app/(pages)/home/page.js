@@ -21,6 +21,7 @@ import HeaderFive from '@/components/HeaderFive/HeaderFive';
 import FooterFive from '@/components/FooterFive/FooterFive';
 import ClientCarousel from '@/components/ClientCarousel/ClientCarousel';
 import HeaderFiveCloned from '@/components/HeaderFive/HeaderFiveCloned';
+import WhatsappButton from "../../../components/WhatsappButton";
 
 export const metadata = {
     title: "Home | Oriole Energy",
@@ -59,6 +60,7 @@ const page = () => {
             <BlogFour /> */}
             <MailTwo pageTitle="homeFive" />
             <FooterFive />
+            <WhatsappButton />
         </Layout>
     );
 };

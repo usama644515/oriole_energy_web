@@ -17,7 +17,7 @@ const HeaderInnerCloned = () => {
       <div className='container'>
         <div className='main-header-inner__inner'>
           <div className='main-header-inner__logo'>
-            <Link href='/home1'>
+            <Link href='/home'>
               <Image
                 src={logo_light}
                 alt='Tolak HTML'
@@ -29,7 +29,7 @@ const HeaderInnerCloned = () => {
 
           <nav className='main-header-inner__nav main-menu'>
             <ul className='main-menu__list'>
-              <MegaMenu />
+              {/* <MegaMenu /> */}
 
               {navItems.map((item) => (
                 <NavItems key={item.id} item={item} />

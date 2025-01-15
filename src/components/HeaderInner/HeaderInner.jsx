@@ -18,10 +18,10 @@ const HeaderInner = () => {
       <div className='container'>
         <div className='main-header-inner__inner'>
           <div className='main-header-inner__logo'>
-            <Link href='/home1'>
+            <Link href='/home'>
               <Image
                 src={logo_light}
-                alt='Tolak HTML'
+                alt='Oriole HTML'
                 width={184}
                 style={{ height: "auto" }}
               />

@@ -1,86 +1,180 @@
-'use client'
-import React, { useEffect, useState } from 'react';
-import dynamic from 'next/dynamic';
+'use client';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import Image from 'next/image';
-import teamThreeData from '@/data/TeamThreeData';
 import Link from 'next/link';
-const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false });
+import teamThreeData from '@/data/TeamThreeData';
 
-const { title, tagLine, teamData } = teamThreeData
-const settings = {
-    items: 1,
-    gutter: 30,
-    slideBy: 'page',
-    autoplay: false,
-    nav: false,
-    controls: false,
-    mouseDrag: true,
-    responsive: {
-        0: {
-            items: 1
-        },
-        768: {
-            items: 2
-        },
-        992: {
-            items: 3
-        }
-    }
-};
+const { title, tagLine, teamData } = teamThreeData;
+
 const TeamThree = () => {
-    const [mounted, setMounted] = useState(false);
+    // Assuming the first item in the teamData is the president
+    const president = teamData[0];
 
-
-    useEffect(() => {
-        setMounted(true);
-    }, []);
-
-    if (!mounted) {
-        return null;
-    }
     return (
-        <section className="team-three" id="team">
+        <section
+            id="president"
+            style={{
+                padding: '60px 0',
+                backgroundColor: '#f8f9fa',
+                textAlign: 'center',
+            }}
+        >
             <Container>
-                <div className="sec-title-three text-center">
-                    <h6 className="sec-title-three__tagline">
-                        <span className="sec-title-three__tagline__left-border"></span>
+                <div>
+                    <h6
+                        style={{
+                            fontSize: '18px',
+                            color: '#004aad',
+                            textTransform: 'uppercase',
+                            marginBottom: '15px',
+                            position: 'relative',
+                            display: 'inline-block',
+                        }}
+                    >
+                        <span
+                            style={{
+                                content: '',
+                                height: '2px',
+                                width: '40px',
+                                backgroundColor: '#004aad',
+                                position: 'absolute',
+                                top: '50%',
+                                left: '-50px',
+                                marginTop: '-1px',
+                                display: 'inline-block',
+                            }}
+                        ></span>
                         {tagLine}
-                        <span className="sec-title-three__tagline__right-border"></span>
+                        <span
+                            style={{
+                                content: '',
+                                height: '2px',
+                                width: '40px',
+                                backgroundColor: '#004aad',
+                                position: 'absolute',
+                                top: '50%',
+                                right: '-50px',
+                                marginTop: '-1px',
+                                display: 'inline-block',
+                            }}
+                        ></span>
                     </h6>
-                    <h3 className="sec-title-three__title">{title}</h3>
+                    <h3
+                        style={{
+                            fontSize: '32px',
+                            fontWeight: '700',
+                            color: '#222',
+                            marginBottom: '40px',
+                        }}
+                    >
+                        Our Team Member
+                    </h3>
                 </div>
-                <div className="tolak-carousel--basic-nav">
-                    <TinySlider settings={settings} className="team-three__carousel">
-                        {teamData.map(({ id, name, image, designation, socialLinks }) => (
-                            <div className="item" key={id}>
-                                <div className="team-card-three wow fadeInUp" data-aos='fade-up' data-wow-duration="1500ms" data-aos-delay="00ms">
-                                    <div className="team-card-three__image" >
-                                        <Image src={image} alt={name} />
-                                        <div className="team-card-three__social">
-                                            {socialLinks.map(({ name, href, icon }, index) => (
-                                                <Link href={href} key={index}>
-                                                    <i className={icon} aria-hidden="true"></i>
-                                                    <span className="sr-only">{name}</span>
-                                                </Link>
-                                            ))}
-                                            <div className="team-card-three__social__toggler">
-                                                <i className="fa fa-plus"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="team-card-three__content">
-                                        <h3 className="team-card-three__title">
-                                            <a href="team-details.html">{name}</a>
-                                        </h3>
-                                        <p className="team-card-three__designation">{designation}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </TinySlider>
+                <div
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                    }}
+                >
+                    <div
+                        style={{
+                            border: '1px solid #ddd',
+                            borderRadius: '10px',
+                            padding: '20px',
+                            backgroundColor: '#fff',
+                            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                            textAlign: 'center',
+                            Width: '400px',
+                            transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                            cursor: 'pointer',
+                        }}
+                        onMouseEnter={(e) => {
+                            e.currentTarget.style.transform = 'scale(1.05)';
+                            e.currentTarget.style.boxShadow = '0 8px 12px rgba(0, 0, 0, 0.2)';
+                        }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.style.transform = 'scale(1)';
+                            e.currentTarget.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)';
+                        }}
+                    >
+                        <div
+                            style={{
+                                position: 'relative',
+                                overflow: 'hidden',
+                                borderRadius: '50%',
+                                width: '250px',
+                                height: '150px',
+                                margin: '0 auto',
+                                transition: 'transform 0.3s ease',
+                            }}
+                            onMouseEnter={(e) =>
+                                (e.currentTarget.style.transform = 'scale(1.1)')
+                            }
+                            onMouseLeave={(e) =>
+                                (e.currentTarget.style.transform = 'scale(1)')
+                            }
+                        >
+                            <Image
+                                src={president.image}
+                                alt={president.name}
+                                style={{ objectFit: 'cover' }}
+                                width={150}
+                                height={150}
+                            />
+                        </div>
+                        <div style={{ marginTop: '15px' }}>
+                            <h3
+                                style={{
+                                    fontSize: '22px',
+                                    fontWeight: '600',
+                                    color: '#222',
+                                }}
+                            >
+                                {president.name}
+                            </h3>
+                            <p
+                                style={{
+                                    fontSize: '16px',
+                                    color: '#777',
+                                }}
+                            >
+                                {president.designation}
+                            </p>
+                        </div>
+                        <div
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                                gap: '10px',
+                                marginTop: '10px',
+                            }}
+                        >
+                            {president.socialLinks.map(({ name, href, icon }, index) => (
+                                <Link href={href} key={index}>
+                                    <i
+                                        className={icon}
+                                        style={{
+                                            fontSize: '18px',
+                                            color: '#004aad',
+                                            transition: 'color 0.3s ease, transform 0.3s ease',
+                                        }}
+                                        onMouseOver={(e) => {
+                                            e.target.style.color = '#222';
+                                            e.target.style.transform = 'scale(1.2)';
+                                        }}
+                                        onMouseOut={(e) => {
+                                            e.target.style.color = '#004aad';
+                                            e.target.style.transform = 'scale(1)';
+                                        }}
+                                    ></i>
+                                    <span className="sr-only">{name}</span>
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
                 </div>
-
             </Container>
         </section>
     );
