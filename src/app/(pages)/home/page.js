@@ -46,7 +46,7 @@ const page = () => {
             <HeaderFiveCloned />
             <MainSliderFive />
             <FeatureFive />
-            {/* <ProjectTwo /> */}
+            <ProjectTwo />
             {/* <AboutFive /> */}
             {/* <FunFactThree /> */}
            
