@@ -1,0 +1,84 @@
+.container {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 6rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .header .active {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    font-size: 2.4rem;
+  }
+  
+  .header .active::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background: #3D72FC;
+    margin: 0.5rem auto 0;
+    margin-bottom: 50px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    /* padding: 1.5rem; */
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .button {
+    background: #3D72FC;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover {
+    background: #003580;
+    transform: translateY(-3px);
+  }
+  

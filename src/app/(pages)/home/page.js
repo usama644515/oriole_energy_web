@@ -22,6 +22,7 @@ import FooterFive from '@/components/FooterFive/FooterFive';
 import ClientCarousel from '@/components/ClientCarousel/ClientCarousel';
 import HeaderFiveCloned from '@/components/HeaderFive/HeaderFiveCloned';
 import WhatsappButton from "../../../components/WhatsappButton";
+import Projects from "../../../components/Projects";
 import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
 
 export const metadata = {
@@ -46,7 +47,8 @@ const page = () => {
             <HeaderFiveCloned />
             <MainSliderFive />
             <FeatureFive />
-            <ProjectTwo />
+            {/* <ProjectTwo /> */}
+            <Projects />
             {/* <AboutFive /> */}
             {/* <FunFactThree /> */}
            
