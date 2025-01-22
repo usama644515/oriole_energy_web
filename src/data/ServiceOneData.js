@@ -1,62 +1,63 @@
-import image1 from '@/assets/images/resources/service-1-1.jpg'
-import image2 from '@/assets/images/resources/service-1-2.jpg'
-import image3 from '@/assets/images/resources/service-1-3.jpg'
-import image4 from '@/assets/images/resources/service-1-4.jpg'
-import image5 from '@/assets/images/resources/service-1-5.jpg'
-import image6 from '@/assets/images/resources/service-1-6.jpg'
+import image1 from '@/assets/images/resources/service1.jpg';
+import image2 from '@/assets/images/resources/service2.jpg';
+import image3 from '@/assets/images/resources/service3.jpg';
+import image4 from '@/assets/images/resources/service-3-4.jpg';
+import image5 from '@/assets/images/resources/service-3-5.png';
+import image6 from '@/assets/images/resources/service-3-6.jpg';
+import image7 from '@/assets/images/resources/service-3-7.jpg';
 const serviceOneData = {
     tagLine: "Our Best Service",
     title: "We Kinds of Services Business",
     title2: "We Leadership This Service",
     items: [
         {
-            id: 1,
-            image: image1,
-            icon: "icon-cooperation",
-            title: "Business of Growth",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-growth"
-        },
-        {
-            id: 2,
-            image: image2,
-            icon: "icon-ads-campaign",
-            title: "Solution to Business",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-solution"
-        },
-        {
-            id: 3,
-            image: image3,
-            icon: "icon-headhunter",
-            title: "Markting of Solution",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "marketing-solution"
-        },
-        {
-            id: 4,
-            image: image4,
-            icon: "icon-agency",
-            title: "Technology Services",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "technology-services"
-        },
-        {
-            id: 5,
-            image: image5,
-            icon: "icon-advertisig-agency",
-            title: "Marketing Business",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-marketing"
-        },
-        {
-            id: 6,
-            image: image6,
-            icon: "icon-management",
-            title: "Support of Business",
-            text: "We businesss standard chunk of Ipsum used since is Agency & Star tup.",
-            href: "business-support"
-        }
+                    id: 1,
+                    image: image5,
+                    icon: "tolak-icons-two-smart-grid",
+                    title: "Website Development",
+                    text: "Crafting modern, responsive websites tailored to your business needs.",
+                    href: "website-development",
+                },
+                {
+                    id: 2,
+                    image: image6,
+                    icon: "tolak-icons-two-algorithm",
+                    title: "Mobile App Development",
+                    text: "Building seamless mobile applications for Android and iOS platforms.",
+                    href: "mobile-app-development",
+                },
+                {
+                    id: 3,
+                    image: image7,
+                    icon: "tolak-icons-two-cybersecurity",
+                    title: "Software Development",
+                    text: "Delivering custom software solutions to streamline your operations.",
+                    href: "software-development",
+                },
+                {
+                    id: 4,
+                    image: image3,
+                    icon: "tolak-icons-two-smart-grid",
+                    title: "Network Infrastructure",
+                    text: "We provide scalable network infrastructure solutions for seamless connectivity.",
+                    href: "network-infrastructure",
+                },
+                {
+                    id: 5,
+                    image: image2,
+                    icon: "tolak-icons-two-algorithm",
+                    title: "Data Science",
+                    text: "Leverage advanced data analytics to gain insights and drive business growth.",
+                    href: "data-science",
+                },
+                {
+                    id: 6,
+                    image: image1,
+                    icon: "tolak-icons-two-cybersecurity",
+                    title: "Graphics Designing",
+                    text: "Creative and professional graphic design services to enhance your brand's identity.",
+                    href: "graphics-designing",
+                },
     ]
 }
 export default serviceOneData

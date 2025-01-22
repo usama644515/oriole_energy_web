@@ -22,6 +22,7 @@ import FooterFive from '@/components/FooterFive/FooterFive';
 import ClientCarousel from '@/components/ClientCarousel/ClientCarousel';
 import HeaderFiveCloned from '@/components/HeaderFive/HeaderFiveCloned';
 import WhatsappButton from "../../../components/WhatsappButton";
+import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
 
 export const metadata = {
     title: "Home | Oriole Energy",
@@ -45,8 +46,10 @@ const page = () => {
             <HeaderFiveCloned />
             <MainSliderFive />
             <FeatureFive />
-            <AboutFive />
+            {/* <ProjectTwo /> */}
+            {/* <AboutFive /> */}
             {/* <FunFactThree /> */}
+           
             <ServiceThree />
             <SkillTwo />
             {/* <ClientCarousel pageTitle="homeFive" /> */}
