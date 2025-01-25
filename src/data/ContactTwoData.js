@@ -2,13 +2,14 @@ import bg from "@/assets/images/shapes/contact-2-shape-1.png";
 import {
   faFacebookF,
   faInstagram,
-  faPinterestP,
+  faLinkedinIn,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+
 const contactTwoData = {
   infoIcon: "icon-customer-service",
   infoText:
-    "Business tailored it design, management & support business agency elit, sed do eiusmod tempor.",
+    "Oriole Energy is committed to delivering innovative, sustainable energy solutions to power your future responsibly.",
   infoTitle: "Contact Information ",
 
   bg,
@@ -16,52 +17,56 @@ const contactTwoData = {
     {
       id: 1,
       icon: "icon-phone-call",
-      title: "Call This Now",
-      text: "+025461556695",
-      href: "025461556695",
+      title: "Call Us Now",
+      text: "+1 800 555 0199",
+      href: "+18005550199",
       subHref: "tel",
     },
     {
       id: 2,
       icon: "icon-open-mail",
-      title: "Your Message",
-      text: "amar@mail.com",
-      href: "amar@mail.com",
+      title: "Email Us",
+      text: "info@orioleenergy.com",
+      href: "info@orioleenergy.com",
       subHref: "mailto",
     },
-
     {
       id: 3,
       icon: "icon-pin",
-      title: "Your location",
-      text: "Dhaka ,56 Besta",
+      title: "Our Location",
+      text: "Multan, Pakistan",
     },
   ],
   socials: [
     {
       id: 1,
       icon: faFacebookF,
-      link: "https://facebook.com",
+      link: "https://facebook.com/orioleenergy",
       name: "Facebook",
     },
     {
       id: 2,
-      icon: faPinterestP,
-      link: "https://pinterest.com",
-      name: "Pinterest",
+      icon: faLinkedinIn,
+      link: "https://www.linkedin.com/company/orioleenergy",
+      name: "LinkedIn",
     },
-    { id: 3, icon: faTwitter, link: "https://twitter.com", name: "Twitter" },
+    {
+      id: 3,
+      icon: faTwitter,
+      link: "https://twitter.com/orioleenergy",
+      name: "Twitter",
+    },
     {
       id: 4,
       icon: faInstagram,
-      link: "https://instagram.com",
+      link: "https://instagram.com/orioleenergy",
       name: "Instagram",
     },
   ],
 
-  tagLine: "Our Contact Us",
-  title: "Get free Business touch Customers me.",
-  text: "Business tailored it design, management & support services \n business agency elit, sed do eiusmod tempor.",
+  tagLine: "Your Trusted Energy Partner",
+  title: "Stay Connected with Oriole Energy",
+  text: "Experience sustainable energy solutions designed for efficiency and reliability. Reach out to us for inquiries and support.",
 };
 
 export default contactTwoData;

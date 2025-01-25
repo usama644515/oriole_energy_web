@@ -8,6 +8,7 @@ import TeamOne from "@/components/TeamOne/TeamOne";
 import TeamOnePage from "@/components/TeamOnePage/TeamOnePage";
 import React from "react";
 import WhatsappButton from "../../../components/WhatsappButton";
+import TeamThree from '@/components/TeamThree/TeamThree';
 
 export const metadata = {
   title: "Team | Oriole Energy",
@@ -26,8 +27,9 @@ const page = () => {
       <HeaderInner />
       <HeaderInnerCloned />
       <PageHeader title="Our Team" subTitle="Team" />
-      <TeamOnePage titleTwo="two" />
-      <MailTwo />
+      {/* <TeamOnePage titleTwo="two" />
+      <MailTwo /> */}
+      <TeamThree />
       <FooterFive />
       <WhatsappButton />
     </Layout>

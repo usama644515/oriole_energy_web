@@ -1,4 +1,4 @@
-import bg1 from "@/assets/images/backgrounds/slider-7-1.jpg";
+// import bg1 from "@/assets/images/backgrounds/slider-7-1.jpg";
 import bg2 from "@/assets/images/backgrounds/slider-7-2.jpg";
 import bg3 from "@/assets/images/backgrounds/slider-7-3.jpg";
 import layer1 from "@/assets/images/backgrounds/slider-7-layer-1.jpg";

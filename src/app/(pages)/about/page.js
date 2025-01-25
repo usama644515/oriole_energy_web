@@ -14,6 +14,7 @@ import TeamOne from '@/components/TeamOne/TeamOne';
 import TestimonialsTwo from '@/components/TestimonialsTwo/TestimonialsTwo';
 import React from 'react';
 import WhatsappButton from "../../../components/WhatsappButton";
+import AboutFive from '@/components/AboutFive/AboutFive';
 
 export const metadata = {
     title: "About | Oriole Energy",
@@ -32,14 +33,15 @@ const page = () => {
             <HeaderInner />
             <HeaderInnerCloned />
             <PageHeader title="About Us" subTitle="About" />
-            <AboutThree />
+            <AboutFive />
+            {/* <AboutThree />
             <FunFactTwo />
             <CtaOne page={true} />
             <ServiceTwo page={true} titleTwo="two" />
             <TestimonialsTwo page={true} />
             <FaqOne />
             <TeamOne />
-            <MailTwo />
+            <MailTwo /> */}
             <FooterFive />
             <WhatsappButton />
         </Layout>

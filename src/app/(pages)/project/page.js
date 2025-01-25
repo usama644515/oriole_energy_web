@@ -7,6 +7,7 @@ import PageHeader from "@/components/PageHeader/PageHeader";
 import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
 import React from "react";
 import WhatsappButton from "../../../components/WhatsappButton";
+import Projects from "../../../components/Projects";
 
 export const metadata = {
   title: "Projects | Oriole Energy",
@@ -25,8 +26,9 @@ const projectPage = () => {
       <HeaderInner />
       <HeaderInnerCloned />
       <PageHeader title='Our Projects' subTitle='Project' />
-      <ProjectTwo />
-      <MailTwo />
+      {/* <ProjectTwo />
+      <MailTwo /> */}
+      <Projects />
       <FooterFive />
       <WhatsappButton />
     </Layout>
