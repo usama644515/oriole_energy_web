@@ -63,7 +63,7 @@ export default function Projects() {
           </div>
         ))}
       </div>
-      <button className={styles.button}>View All Projects</button>
+      {/* <button className={styles.button}>View All Projects</button> */}
     </div>
   );
 }
