@@ -115,8 +115,8 @@ const footerData = {
   bottomLinks: [
     { id: 1, href: "/about", title: "About Us" },
     { id: 2, href: "/services", title: "Services" },
-    { id: 3, href: "/blog-list-right", title: "News & Updates" },
-    { id: 4, href: "/portfolio", title: "Our Portfolio" },
+    // { id: 3, href: "/blog-list-right", title: "News & Updates" },
+    { id: 4, href: "/project", title: "Our Portfolio" },
   ],
 };
 

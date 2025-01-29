@@ -26,7 +26,7 @@ const MobileNav = () => {
 
                 <div className="mobile-nav__container">
                     <ul className='main-menu__list'>
-                        <MegaMenu />
+                        {/* <MegaMenu /> */}
                         {navItems.map((navItem) => (
                             <MobileNavItems key={navItem.id} navItem={navItem} />
                         ))}
@@ -37,14 +37,14 @@ const MobileNav = () => {
                 <ul className="mobile-nav__contact list-unstyled">
                     <li>
                         <i className="fa fa-envelope"></i>
-                        <a href="mailto:needhelp@tolak.com">needhelp@tolak.com</a>
+                        <a href="mailto:orioleenergy@gmail.com">orioleenergy@gmail.com</a>
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>
-                        <a href="tel:666-888-0000">666 888 0000</a>
+                        <a href="tel:923018691905">0301-8691905</a>
                     </li>
                 </ul>
-                <div className="mobile-nav__social">
+                {/* <div className="mobile-nav__social">
                     {social.map(({ icon, link }, index) => (
 
                         <Link key={index} href={link}>
@@ -54,7 +54,7 @@ const MobileNav = () => {
 
                     ))}
 
-                </div>
+                </div> */}
             </div >
 
         </div >

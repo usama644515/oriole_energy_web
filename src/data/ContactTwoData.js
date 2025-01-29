@@ -18,8 +18,8 @@ const contactTwoData = {
       id: 1,
       icon: "icon-phone-call",
       title: "Call Us Now",
-      text: "+1 800 555 0199",
-      href: "+18005550199",
+      text: "0301-8691905",
+      href: "923018691905",
       subHref: "tel",
     },
     {
