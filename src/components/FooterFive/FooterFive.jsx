@@ -36,7 +36,7 @@ const FooterFive = () => {
                     </Col >
                     <Col md={6} lg={3} className="col-md-6 col-lg-3">
                         <div className="footer-widget footer-widget--links">
-                            <h2 className="footer-widget__title">Service</h2>
+                            <h2 className="footer-widget__title">Quick Links</h2>
                             <ul className="list-unstyled footer-widget__links">
                                 {services.map(({ id, title, href }) => (
                                     <li key={id}>
@@ -50,7 +50,7 @@ const FooterFive = () => {
                     </Col >
                     <Col md={6} lg={2} className="col-md-6 col-lg-2">
                         <div className="footer-widget footer-widget--links main-footer-four--ml30">
-                            <h2 className="footer-widget__title">Quick Link</h2>
+                            <h2 className="footer-widget__title">Our Services</h2>
                             <ul className="list-unstyled footer-widget__links">
                                 {quickLinks.map(({ id, title, href }) => (
                                     <li key={id}>
