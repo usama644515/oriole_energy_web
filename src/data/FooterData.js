@@ -14,19 +14,15 @@ import post2 from "@/assets/images/blog/lp-1-2.jpg";
 import post6 from "@/assets/images/blog/lp-1-6.jpg";
 import post7 from "@/assets/images/blog/lp-1-7.jpg";
 
-import {
-  faFacebookF,
-  faInstagram,
-  faPinterestP,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram, faLinkedinIn, faTwitter }  from "@fortawesome/free-brands-svg-icons";
 
 const widgetSocial = [
-  { id: 1, icon: faFacebookF, href: "https://facebook.com", title: "Follow us on Facebook" },
-  { id: 2, icon: faPinterestP, href: "https://pinterest.com", title: "Follow us on Pinterest" },
-  { id: 3, icon: faTwitter, href: "https://twitter.com", title: "Follow us on Twitter" },
-  { id: 4, icon: faInstagram, href: "https://instagram.com", title: "Follow us on Instagram" },
+  { id: 1, icon: faFacebookF, href: "https://www.facebook.com/OrioleEnergy", title: "Follow us on Facebook" },
+  { id: 2, icon: faInstagram, href: "https://instagram.com", title: "Follow us on Instagram" },
+  { id: 3, icon: faLinkedinIn, href: "https://www.linkedin.com/company/orioleenergy/", title: "Follow us on LinkedIn" },
+  { id: 4, icon: faTwitter, href: "https://twitter.com", title: "Follow us on Twitter" },
 ];
+
 
 const posts = {
   title: "Latest Updates",

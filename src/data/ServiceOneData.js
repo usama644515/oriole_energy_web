@@ -16,7 +16,7 @@ const serviceOneData = {
                     icon: "tolak-icons-two-smart-grid",
                     title: "Website Development",
                     text: "Crafting modern, responsive websites tailored to your business needs.",
-                    href: "website-development",
+                    href: "web-development",
                 },
                 {
                     id: 2,
@@ -24,7 +24,7 @@ const serviceOneData = {
                     icon: "tolak-icons-two-algorithm",
                     title: "Mobile App Development",
                     text: "Building seamless mobile applications for Android and iOS platforms.",
-                    href: "mobile-app-development",
+                    href: "app-development",
                 },
                 {
                     id: 3,
