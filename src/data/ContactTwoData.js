@@ -4,7 +4,7 @@ import {
   faInstagram,
   faLinkedinIn,
   faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+} from "@fortawesome/free-brands-svg-icons";9
 
 const contactTwoData = {
   infoIcon: "icon-customer-service",
@@ -26,8 +26,8 @@ const contactTwoData = {
       id: 2,
       icon: "icon-open-mail",
       title: "Email Us",
-      text: "info@orioleenergy.com",
-      href: "info@orioleenergy.com",
+      text: "enquiry@oriolenergy.com",
+      href: "enquiry@oriolenergy.com",
       subHref: "mailto",
     },
     {
