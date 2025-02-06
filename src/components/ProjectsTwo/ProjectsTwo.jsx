@@ -72,15 +72,15 @@ const ProjectTwo = () => {
                   <Image src={project.image} alt={project.title} />
                 </div>
                 <div className='project-two__item__content'>
-                  <p className='project-two__item__cats'>
+                  {/* <p className='project-two__item__cats'>
                     {project.category}
-                  </p>
+                  </p> */}
                   <h3 className='project-two__item__title'>
                     <a href={project.link}>{project.title}</a>
                   </h3>
-                  <a href={project.link} className='project-two__item__rm'>
+                  {/* <a href={project.link} className='project-two__item__rm'>
                     <span className='icon-right-arrow'></span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
 

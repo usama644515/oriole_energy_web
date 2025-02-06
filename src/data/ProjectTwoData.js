@@ -4,39 +4,54 @@ import image3 from "@/assets/images/project/project-2-1.png";
 import image4 from "@/assets/images/project/project-2-6.png";
 import image5 from "@/assets/images/project/project-2-5.jpg";
 import image6 from "@/assets/images/project/project-2-6.jpg";
+import image7 from "@/assets/images/project/Slide5.jpg";
+import image8 from "@/assets/images/project/Slide6.jpg";
+import image9 from "@/assets/images/project/Slide7.jpg";
+import image10 from "@/assets/images/project/Slide8.jpg";
+import image11 from "@/assets/images/project/Slide9.jpg";
+import image12 from "@/assets/images/project/Slide10.jpg";
 const projectsData = {
   title: "We Have Business Case Studies",
   subtitle: "Our Projects Now",
   filterCategories: [
     { name: "All", filterClass: "filter-item" },
-    { name: "Business", filterClass: "business" },
+    // { name: "Business", filterClass: "business" },
     { name: "Solution", filterClass: "solution" },
     { name: "Marketing", filterClass: "marketing" },
     { name: "Software", filterClass: "software" },
   ],
   projects: [
     {
-      image: image1,
+      image: image7,
       category: "Marketing",
-      title: "Business Of Growth",
+      title: "Vehicle Management",
       link: "/project-details",
-      filterClasses: ["marketing"],
+      filterClasses: ["solution", 'software'],
       xl: 3,
       md: 6,
     },
     {
-      image: image2,
+      image: image8,
       category: "Marketing",
-      title: "Business Of Growth",
+      title: "Evyol CRM",
       link: "/project-details",
-      filterClasses: ["business", "solution"],
+      filterClasses: ["solution"],
       xl: 3,
       md: 6,
     },
     {
       image: image3,
       category: "Marketing",
-      title: "Business Of Growth",
+      title: "CRM Solutions",
+      link: "/project-details",
+      filterClasses: ["software", "business"],
+      xl: 6,
+      md: 12,
+    },
+    {
+      image: image11,
+      category: "Marketing",
+      title: "Mobile App Solutions",
       link: "/project-details",
       filterClasses: ["software", "business"],
       xl: 6,
@@ -45,25 +60,34 @@ const projectsData = {
     {
       image: image4,
       category: "Marketing",
-      title: "Business Of Growth",
+      title: "Dashborad Solutions",
       link: "/project-details",
       filterClasses: ["soluion"],
       xl: 6,
       md: 12,
     },
     {
-      image: image5,
+      image: image12,
       category: "Marketing",
-      title: "Business Of Growth",
+      title: "Android & iOS App",
+      link: "/project-details",
+      filterClasses: ["soluion"],
+      xl: 6,
+      md: 12,
+    },
+    {
+      image: image9,
+      category: "Marketing",
+      title: "Evyol HRMS",
       link: "/project-details",
       filterClasses: ["marketing", "software"],
       xl: 3,
       md: 6,
     },
     {
-      image: image6,
+      image: image10,
       category: "Marketing",
-      title: "Business Of Growth",
+      title: "School Management",
       link: "/project-details",
       filterClasses: ["business", "solution"],
       xl: 3,

@@ -26,8 +26,8 @@ const projectPage = () => {
       <HeaderInner />
       <HeaderInnerCloned />
       <PageHeader title='Our Projects' subTitle='Project' />
-      {/* <ProjectTwo />
-      <MailTwo /> */}
+      <ProjectTwo />
+      {/* <MailTwo /> */}
       <Projects />
       <FooterFive />
       <WhatsappButton />
