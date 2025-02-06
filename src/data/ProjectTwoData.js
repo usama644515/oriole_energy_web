@@ -4,12 +4,12 @@ import image3 from "@/assets/images/project/project-2-1.png";
 import image4 from "@/assets/images/project/project-2-6.png";
 import image5 from "@/assets/images/project/project-2-5.jpg";
 import image6 from "@/assets/images/project/project-2-6.jpg";
-import image7 from "@/assets/images/project/Slide5.jpg";
-import image8 from "@/assets/images/project/Slide6.jpg";
-import image9 from "@/assets/images/project/Slide7.jpg";
-import image10 from "@/assets/images/project/Slide8.jpg";
-import image11 from "@/assets/images/project/Slide9.jpg";
-import image12 from "@/assets/images/project/Slide10.jpg";
+import image7 from "@/assets/images/project/Slide5.JPG";
+import image8 from "@/assets/images/project/Slide6.JPG";
+import image9 from "@/assets/images/project/Slide7.JPG";
+import image10 from "@/assets/images/project/Slide8.JPG";
+import image11 from "@/assets/images/project/Slide9.JPG";
+import image12 from "@/assets/images/project/Slide10.JPG";
 const projectsData = {
   title: "We Have Business Case Studies",
   subtitle: "Our Projects Now",
@@ -26,7 +26,7 @@ const projectsData = {
       category: "Marketing",
       title: "Vehicle Management",
       link: "/project-details",
-      filterClasses: ["solution", 'software'],
+      filterClasses: ["solution", "software"],
       xl: 3,
       md: 6,
     },
