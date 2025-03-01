@@ -1,6 +1,8 @@
-import teamImage1 from "@/assets/images/team/team-3-1.png";
-import teamImage2 from "@/assets/images/team/team-3-2.jpg";
-import teamImage3 from "@/assets/images/team/team-3-3.jpg";
+import teamImage1 from "@/assets/images/team/1.png";
+import teamImage2 from "@/assets/images/team/2.png";
+import teamImage3 from "@/assets/images/team/3.png";
+import teamImage4 from "@/assets/images/team/4.png";
+// import teamImage3 from "@/assets/images/team/team-3-3.jpg";
 
 const teamThreeData = {
   title: "OUR TEAM MEMBER",
@@ -9,8 +11,92 @@ const teamThreeData = {
     {
       id: 1,
       name: "Mueez Asif",
-      image: teamImage1,
+      image: teamImage4,
       designation: "President",
+      socialLinks: [
+        {
+          name: "LinkedIn",
+          href: "https://linkedin.com",
+          icon: "fab fa-linkedin-in",
+        },
+        {
+          name: "Twitter",
+          href: "https://twitter.com",
+          icon: "fab fa-twitter",
+        },
+        {
+          name: "Instagram",
+          href: "https://instagram.com",
+          icon: "fab fa-instagram",
+        },
+        {
+          name: "WhatsApp",
+          href: "https://wa.me/1234567890",
+          icon: "fab fa-whatsapp",
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "M Muzammil Hussain",
+      image: teamImage1,
+      designation: "Digital Marketing & Operations",
+      socialLinks: [
+        {
+          name: "LinkedIn",
+          href: "https://linkedin.com",
+          icon: "fab fa-linkedin-in",
+        },
+        {
+          name: "Twitter",
+          href: "https://twitter.com",
+          icon: "fab fa-twitter",
+        },
+        {
+          name: "Instagram",
+          href: "https://instagram.com",
+          icon: "fab fa-instagram",
+        },
+        {
+          name: "WhatsApp",
+          href: "https://wa.me/1234567890",
+          icon: "fab fa-whatsapp",
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Jawad Ahmad",
+      image: teamImage3,
+      designation: "Data Scientist & AI Developer",
+      socialLinks: [
+        {
+          name: "LinkedIn",
+          href: "https://linkedin.com",
+          icon: "fab fa-linkedin-in",
+        },
+        {
+          name: "Twitter",
+          href: "https://twitter.com",
+          icon: "fab fa-twitter",
+        },
+        {
+          name: "Instagram",
+          href: "https://instagram.com",
+          icon: "fab fa-instagram",
+        },
+        {
+          name: "WhatsApp",
+          href: "https://wa.me/1234567890",
+          icon: "fab fa-whatsapp",
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Usama Hanif",
+      image: teamImage2,
+      designation: "Web & Mobile App Developer",
       socialLinks: [
         {
           name: "LinkedIn",
