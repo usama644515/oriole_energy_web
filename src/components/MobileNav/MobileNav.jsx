@@ -41,7 +41,7 @@ const MobileNav = () => {
                     </li>
                     <li>
                         <i className="fa fa-phone-alt"></i>
-                        <a href="tel:+1 5155068507">+1 5155068507</a>
+                        <a href="tel:+923166668282">+92 3166668282</a>
                     </li>
                 </ul>
                 {/* <div className="mobile-nav__social">

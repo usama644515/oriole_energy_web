@@ -18,8 +18,8 @@ const contactTwoData = {
       id: 1,
       icon: "icon-phone-call",
       title: "Call Us Now",
-      text: "+1 5155068507",
-      href: "+1 5155068507",
+      text: "+92 3166668282",
+      href: "+923166668282",
       subHref: "tel",
     },
     {
@@ -34,7 +34,7 @@ const contactTwoData = {
       id: 3,
       icon: "icon-pin",
       title: "Our Location",
-      text: "382 Ne 191st St Pmb 67558 Miami FL 331793899, US",
+      text: "Multan, Pakistan",
     },
   ],
   socials: [
