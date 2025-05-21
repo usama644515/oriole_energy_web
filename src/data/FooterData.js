@@ -97,7 +97,7 @@ const footerData = {
   services: [
     { id: 1, href: "/", title: "Home" },
     { id: 2, href: "/services", title: "Our Services" },
-    { id: 3, href: "/project", title: "Our Projects" },
+    { id: 3, href: "/portfolio", title: "Our Projects" },
     { id: 4, href: "/about", title: "About Us" },
     { id: 5, href: "/contact", title: "Contact Us" },
   ],
@@ -112,7 +112,7 @@ const footerData = {
     { id: 1, href: "/about", title: "About Us" },
     { id: 2, href: "/services", title: "Services" },
     // { id: 3, href: "/blog-list-right", title: "News & Updates" },
-    { id: 4, href: "/project", title: "Our Portfolio" },
+    { id: 4, href: "/portfolio", title: "Our Portfolio" },
   ],
 };
 
