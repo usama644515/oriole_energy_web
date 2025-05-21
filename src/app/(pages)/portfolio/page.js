@@ -27,7 +27,7 @@ import Projects from "../../../components/Projects";
 import ProjectTwo from "@/components/ProjectsTwo/ProjectsTwo";
 
 export const metadata = {
-    title: "Home | Oriole Energy",
+    title: "Portfolio | Oriole Energy",
     description:
       "Oriole Energy is a leading technology company specializing in innovative IT solutions. We provide cutting-edge services including software development, cloud computing, cybersecurity, and IT consulting. Our mission is to empower businesses by delivering tailored, high-quality technology solutions that drive growth, efficiency, and transformation in today's digital world.",
     icons: {
