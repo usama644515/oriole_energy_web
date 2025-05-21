@@ -98,12 +98,12 @@
 /* Portfolio Grid Styles */
 .portfolioGrid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
-.websiteGrid {
-  grid-template-columns: repeat(3, 1fr);
+.mobileGrid {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .portfolioItem {

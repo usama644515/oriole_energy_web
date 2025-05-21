@@ -12,86 +12,108 @@ const Portfolio = () => {
 
   // Portfolio items data
   const portfolioItems = [
-    {
+     {
       id: 1,
-      title: 'Software Agency Website',
-      description: 'An interactive learning management system with course creation, student tracking, and progress analytics.',
-      category: 'website',
-      image: '/images/portfolio/website1.png',
-      link: 'https://drive.google.com/drive/folders/1BW5oJHDd778ssGx5Dk5QGlImMhJXqM3S?usp=sharing'
+      title: "Software Agency Website",
+      description:
+        "An interactive learning management system with course creation, student tracking, and progress analytics.",
+      category: "website",
+      image: "/images/portfolio/website1.png",
+      link: "https://drive.google.com/drive/folders/1eNdcczJcz0jWcI0wp0zSB_DTp5labap0?usp=sharing",
     },
-    // {
-    //   id: 2,
-    //   title: 'Umrah Taxi Website',
-    //   description: 'Booking platform for Umrah transportation services with real-time scheduling and payment processing.',
-    //   category: 'website',
-    //   image: '/images/portfolio/website2.png',
-    //   link: 'https://drive.google.com/drive/folders/1soZ0jvATRVZvN4HJ85MRe2mBHKU2i1oa?usp=sharing'
-    // },
-    // {
-    //   id: 3,
-    //   title: 'Healthcare Dashboard',
-    //   description: 'Comprehensive medical dashboard for patient management, appointment scheduling, and health analytics.',
-    //   category: 'website',
-    //   image: '/images/portfolio/website3.png',
-    //   link: 'https://drive.google.com/drive/folders/1UmYP7bAF-eWHDuh4yzyeb6EkzvQ-qYvU?usp=sharing'
-    // },
+    {
+      id: 2,
+      title: "RAG GPT Implementation",
+      description:
+        "Custom Retrieval-Augmented Generation system for enhanced AI question answering capabilities.",
+      category: "ai",
+      image: "/images/portfolio/ai1.png",
+      link: "https://drive.google.com/drive/folders/1uZqfxogBl1wSm0GGb2m7fgj_64lHegAL?usp=sharing",
+    },
+    {
+      id: 3,
+      title: "Medical AI Assistant",
+      description:
+        "Mobile application providing AI-powered medical diagnosis support and health recommendations.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp1.jpeg",
+      link: "https://drive.google.com/drive/folders/1WAuZBoIY06i7eipFDUpZRhSE9eGEXTtp?usp=sharing",
+    },
     {
       id: 4,
-      title: 'RAG GPT Implementation',
-      description: 'Custom Retrieval-Augmented Generation system for enhanced AI question answering capabilities.',
-      category: 'ai',
-      image: '/images/portfolio/ai1.png',
-      link: 'https://drive.google.com/drive/folders/1ri_EgHHyuoRRKg0JUxzBmLHstOyEF_Hn?usp=sharing'
+      title: "Weather Monitoring App",
+      description:
+        "Real-time weather forecasting application with location-based alerts and historical data analysis.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp2.jpeg",
+      link: "https://drive.google.com/drive/folders/1SJLttStuCnYt9pLGIdvRmwgCKpo1IChu?usp=sharing",
     },
-    // {
-    //   id: 5,
-    //   title: 'Medical AI Assistant',
-    //   description: 'Mobile application providing AI-powered medical diagnosis support and health recommendations.',
-    //   category: 'mobile',
-    //   image: '/images/portfolio/mobileapp1.jpeg',
-    //   link: 'https://drive.google.com/drive/folders/1FBdZgRyP9VlcVN4-GS-8hbP1WrjrdAxY?usp=sharing'
-    // },
+    {
+      id: 5,
+      title: "Weather Monitoring App 2",
+      description:
+        "Real-time weather forecasting application with location-based alerts and historical data analysis.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp3.jpeg",
+      link: "https://drive.google.com/drive/folders/1EJthiO_KpkSDAjSFXzfiZBbdgVahq7Ar?usp=sharing",
+    },
     {
       id: 6,
-      title: 'Weather Monitoring App',
-      description: 'Real-time weather forecasting application with location-based alerts and historical data analysis.',
-      category: 'mobile',
-      image: '/images/portfolio/mobileapp2.jpeg',
-      link: 'https://drive.google.com/drive/folders/1JFqZCGT7M4R5ZKFrTsv8Z2eFUr5LKEYH?usp=sharing'
+      title: "Sales Tracking App",
+      description:
+        "Field sales monitoring application with GPS tracking, visit logging, and performance analytics.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp4.jpeg",
+      link: "https://drive.google.com/drive/folders/1PbgfjPlIpR1Ioh037xKvhatONjzyb10t?usp=sharing",
     },
-    // {
-    //   id: 7,
-    //   title: 'Weather Monitoring App 2',
-    //   description: 'Real-time weather forecasting application with location-based alerts and historical data analysis.',
-    //   category: 'mobile',
-    //   image: '/images/portfolio/mobileapp3.jpeg',
-    //   link: 'https://drive.google.com/drive/folders/1XEFMZGQdSaH7-My0HdN7t4RXZEKZ_lU4?usp=sharing'
-    // },
-    // {
-    //   id: 8,
-    //   title: 'Umrah Cab Booking',
-    //   description: 'Complete booking system for Umrah transportation with driver management and route optimization.',
-    //   category: 'website',
-    //   image: '/images/portfolio/website5.png',
-    //   link: 'https://drive.google.com/drive/folders/1K8LQv3YRiifQhQUEgRfFQTyI8Zyp6CrR?usp=sharing'
-    // },
+    
+    {
+      id: 7,
+      title: "Islamic App",
+      description:
+        "An Islamic lifestyle app offering prayer times, Quran, and religious content.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp6.png",
+      link: "https://drive.google.com/drive/folders/1X__1cMfbwP96cPK5bE5OX5smofgweQ-Q?usp=sharing",
+    },
+    
+    {
+      id: 8,
+      title: "Patient Fitness/Activity App",
+      description:
+        "A health tracking app focused on patient fitness, daily activity, and wellness insights.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp8.png",
+      link: "https://drive.google.com/drive/folders/1Cz5DJ7iyWm5SZO1tF7nAbahW1s0WyB8g?usp=sharing",
+    },
     {
       id: 9,
-      title: 'Sales Tracking App',
-      description: 'Field sales monitoring application with GPS tracking, visit logging, and performance analytics.',
-      category: 'mobile',
-      image: '/images/portfolio/mobileapp4.jpeg',
-      link: 'https://drive.google.com/drive/folders/1x7_LpqWamglMjaXmdfLGud0EJ1s9KRQY?usp=sharing'
+      title: "Artisit Portfolios App",
+      description:
+        "A platform for artists to showcase their portfolios, galleries, and creative projects.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp9.png",
+      link: "https://drive.google.com/drive/folders/11Tu8T-yO8wFqYH9zpdIOyEcXDT_hA6zj?usp=sharing",
     },
-    // {
-    //   id: 10,
-    //   title: 'Medical Lab Dashboard',
-    //   description: 'Comprehensive medical dashboard for patient report management and health analytics.',
-    //   category: 'website',
-    //   image: '/images/portfolio/website6.png',
-    //   link: 'https://drive.google.com/drive/folders/1qoP2MpSos2iMC1lHTtrcc_qnGIvNDGcl?usp=sharing'
-    // },
+    {
+      id: 10,
+      title: "Event Managment App",
+      description:
+        "An event management tool for planning, organizing, and tracking event logistics.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp10.png",
+      link: "https://drive.google.com/drive/folders/1BU_0ZQB0XsfsxvG1Ealz_Zbc7yyKKOc-?usp=sharing",
+    },
+   
+    {
+      id: 11,
+      title: "Chruch Guide App",
+      description:
+        "An app to help users find church locations, events, sermons, and spiritual resources.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp12.png",
+      link: "https://drive.google.com/drive/folders/1nCkTmvXn4ma32AZaX4fZAkaA1iWB94BE?usp=sharing",
+    }
   ];
 
   // Filter items based on active tab
@@ -132,7 +154,7 @@ const Portfolio = () => {
         </div>
 
         {/* Portfolio Grid */}
-        <div className={`${styles.portfolioGrid} ${activeTab === 'website' ? styles.websiteGrid : ''}`}>
+        <div className={`${styles.portfolioGrid} ${activeTab === 'mobile' ? styles.mobileGrid : ''}`}>
           {filteredItems.map(item => (
             <div 
               key={item.id} 
