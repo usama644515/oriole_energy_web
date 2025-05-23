@@ -66,51 +66,51 @@ const Portfolio = () => {
       image: "/images/portfolio/mobileapp4.jpeg",
       link: "https://drive.google.com/drive/folders/1PbgfjPlIpR1Ioh037xKvhatONjzyb10t?usp=sharing",
     },
-    {
-      id: 7,
-      title: "Islamic App",
-      description:
-        "Comprehensive Islamic application featuring prayer times, Quran, hadith, and mosque locator.",
-      category: "mobile",
-      image: "/images/portfolio/mobileapp6.png",
-      link: "https://drive.google.com/drive/folders/1X__1cMfbwP96cPK5bE5OX5smofgweQ-Q?usp=sharing",
-    },
-    {
-      id: 8,
-      title: "Patient Fitness/Activity App",
-      description:
-        "Mobile health application tracking patient activity levels, exercise routines, and wellness metrics.",
-      category: "mobile",
-      image: "/images/portfolio/mobileapp8.png",
-      link: "https://drive.google.com/drive/folders/1Cz5DJ7iyWm5SZO1tF7nAbahW1s0WyB8g?usp=sharing",
-    },
-    {
-      id: 9,
-      title: "Artist Portfolios App",
-      description:
-        "Platform for artists to display their creative work, manage exhibitions, and connect with clients.",
-      category: "mobile",
-      image: "/images/portfolio/mobileapp9.png",
-      link: "https://drive.google.com/drive/folders/11Tu8T-yO8wFqYH9zpdIOyEcXDT_hA6zj?usp=sharing",
-    },
-    {
-      id: 10,
-      title: "Event Management App",
-      description:
-        "Comprehensive tool for event organizers to plan, coordinate, and execute successful events.",
-      category: "mobile",
-      image: "/images/portfolio/mobileapp10.png",
-      link: "https://drive.google.com/drive/folders/1BU_0ZQB0XsfsxvG1Ealz_Zbc7yyKKOc-?usp=sharing",
-    },
-    {
-      id: 11,
-      title: "Church Guide App",
-      description:
-        "Digital guide helping users find churches, view service schedules, and access spiritual content.",
-      category: "mobile",
-      image: "/images/portfolio/mobileapp12.png",
-      link: "https://drive.google.com/drive/folders/1nCkTmvXn4ma32AZaX4fZAkaA1iWB94BE?usp=sharing",
-    },
+    // {
+    //   id: 7,
+    //   title: "Islamic App",
+    //   description:
+    //     "Comprehensive Islamic application featuring prayer times, Quran, hadith, and mosque locator.",
+    //   category: "mobile",
+    //   image: "/images/portfolio/mobileapp6.png",
+    //   link: "https://drive.google.com/drive/folders/1X__1cMfbwP96cPK5bE5OX5smofgweQ-Q?usp=sharing",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Patient Fitness/Activity App",
+    //   description:
+    //     "Mobile health application tracking patient activity levels, exercise routines, and wellness metrics.",
+    //   category: "mobile",
+    //   image: "/images/portfolio/mobileapp8.png",
+    //   link: "https://drive.google.com/drive/folders/1Cz5DJ7iyWm5SZO1tF7nAbahW1s0WyB8g?usp=sharing",
+    // },
+    // {
+    //   id: 9,
+    //   title: "Artist Portfolios App",
+    //   description:
+    //     "Platform for artists to display their creative work, manage exhibitions, and connect with clients.",
+    //   category: "mobile",
+    //   image: "/images/portfolio/mobileapp9.png",
+    //   link: "https://drive.google.com/drive/folders/11Tu8T-yO8wFqYH9zpdIOyEcXDT_hA6zj?usp=sharing",
+    // },
+    // {
+    //   id: 10,
+    //   title: "Event Management App",
+    //   description:
+    //     "Comprehensive tool for event organizers to plan, coordinate, and execute successful events.",
+    //   category: "mobile",
+    //   image: "/images/portfolio/mobileapp10.png",
+    //   link: "https://drive.google.com/drive/folders/1BU_0ZQB0XsfsxvG1Ealz_Zbc7yyKKOc-?usp=sharing",
+    // },
+    // {
+    //   id: 11,
+    //   title: "Church Guide App",
+    //   description:
+    //     "Digital guide helping users find churches, view service schedules, and access spiritual content.",
+    //   category: "mobile",
+    //   image: "/images/portfolio/mobileapp12.png",
+    //   link: "https://drive.google.com/drive/folders/1nCkTmvXn4ma32AZaX4fZAkaA1iWB94BE?usp=sharing",
+    // },
     {
       id: 12,
       title: "School Management System",
