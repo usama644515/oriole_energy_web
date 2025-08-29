@@ -11,7 +11,7 @@ const Portfolio = () => {
   const [hoveredItem, setHoveredItem] = useState(null);
 
   // Portfolio items data
-  const portfolioItems = [
+ const portfolioItems = [
     {
       id: 1,
       title: "Educational Platform",
@@ -48,6 +48,25 @@ const Portfolio = () => {
       image: "/images/portfolio/website4.png",
       link: "https://drive.google.com/drive/folders/1fuE7Ip5eKscjx7KLOxQSVn2syGI99aoS?usp=sharing",
     },
+    {
+      id: 37,
+      title: "Live Streaming App",
+      description:
+        "A mobile application that enables seamless live video streaming with interactive features for real-time engagement.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp15.jpg",
+      link: "https://drive.google.com/drive/folders/1FBdZgRyP9VlcVN4-GS-8hbP1WrjrdAxY?usp=sharing",
+    },
+    {
+      id: 36,
+      title: "Order Management App",
+      description:
+        "A mobile application designed to streamline order processing, track deliveries, and manage customer transactions efficiently.",
+      category: "mobile",
+      image: "/images/portfolio/mobileapp14.jpg",
+      link: "https://drive.google.com/drive/folders/1FBdZgRyP9VlcVN4-GS-8hbP1WrjrdAxY?usp=sharing",
+    },
+
     {
       id: 5,
       title: "Medical AI Assistant",
@@ -295,6 +314,33 @@ const Portfolio = () => {
       category: "website",
       image: "/images/portfolio/website12.png",
       link: "https://drive.google.com/drive/folders/1RWDgsFAMF2XHQLi1Y0J-OhZKhPaL-Ob0?usp=sharing",
+    },
+    {
+      id: 33,
+      title: "Mouse Behavior Authentication System",
+      description:
+        "An AI-powered authentication system that verifies users based on their mouse movement patterns and behaviors.",
+      category: "ai",
+      image: "/images/portfolio/ai3.jpeg",
+      link: "https://github.com/jawad4605/browser_behaviour?tab=readme-ov-file",
+    },
+    {
+      id: 34,
+      title: "AI Story Book Generator",
+      description:
+        "An AI tool that generates creative and engaging children's storybooks with unique plots, illustrations, and narration.",
+      category: "ai",
+      image: "/images/portfolio/ai4.jpeg",
+      link: "https://drive.google.com/drive/folders/1kGA40-m_qeZRJjukfuSc9pHC1AyotwAO?usp=sharing",
+    },
+    {
+      id: 35,
+      title: "VieroMind",
+      description:
+        "An advanced AI-powered mental health assistant designed to provide emotional support and personalized well-being insights.",
+      category: "ai",
+      image: "/images/portfolio/ai5.png",
+      link: "https://drive.google.com/drive/folders/1FYbxe9bKNAljYxH1W7B43noNbwDT4HNk?usp=sharing",
     },
   ];
 
